@@ -17,5 +17,5 @@ module.exports = {
 			'smokescreen': path.join(__dirname, 'libs/smokescreen'),
 		},
 		extensions: ['.js', '.ts', '.tsx'],
-	},
+	}
 };

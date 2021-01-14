@@ -27,5 +27,14 @@ export default locator => {
 			'max-height': locator.calcString(100, '%'),
 			'transition': 'all 0.2s ease-in-out',
 		},
+		'.nobr': {
+			'white-space': 'nowrap',
+			'font-family': 'Tahoma, Verdana, sans-serif;'
+
+		},
+		'.invisible': {
+			'opacity': '0'
+		}
+
 	};
 };
